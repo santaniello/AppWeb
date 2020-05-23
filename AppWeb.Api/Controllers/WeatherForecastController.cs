@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace AppWeb.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+   // [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -23,7 +23,7 @@ namespace AppWeb.Api.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet("teste")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();

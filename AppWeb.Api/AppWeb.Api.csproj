@@ -3,7 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AppWeb.Application\AppWeb.Application.csproj" />
   </ItemGroup>
-
+  
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
